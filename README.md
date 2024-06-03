@@ -17,12 +17,12 @@
    - **Super Health**: Grants 10 additional bonus health, allowing you to survive most one-shot attacks.
 
 4. **New Loading Screen Thumbnail**
-  - Fixes a Day 1 Bug with Mercury Suites where the Loading thumbnail incorrectly showcases the Apartment Lobby's thumbnail.
-  - Now Showcases the proper thumbnail.
+   - Fixes a Day 1 Bug with Mercury Suites where the Loading thumbnail incorrectly showcases the Apartment Lobby's thumbnail.
+   - Now Showcases the proper thumbnail.
 
 5. **New FOV Fix**
-  - The included UserMP.ini now has a new FOV fix which will work 100% of the time and changes the FOV immediately once pressed.
-  - Note: The ForegroundFOV still requires correct timing. But there are now more opportunities to trigger the fix before spawning.
+   - The included UserMP.ini now has a new FOV fix which will work 100% of the time and changes the FOV immediately once pressed.
+   - Note: The ForegroundFOV still requires correct timing. But there are now more opportunities to trigger the fix before spawning.
 
 
 ## DLC Installation
@@ -47,9 +47,9 @@
 10. **Need Help?**
     - If you have any questions or concerns, please join the Bioshock 2 Multiplayer Official Discord for help installing. [Bioshock 2 Multiplayer Discord Server](https://discord.gg/4ydTGHfFPQ)
 11. **Wanna Uninstall the DLC?**
-   - To uninstall the DLC and revert to the vanilla version, simply replace the downloaded files with your backups.
-   - If this doesn't work, you can verify the integrity of the game files within your Steam library.
-   - If verifying still does not work, you will need to reinstall the game.
+    - To uninstall the DLC and revert to the vanilla version, simply replace the downloaded files with your backups.
+    - If this doesn't work, you can verify the integrity of the game files within your Steam library.
+    - If verifying still does not work, you will need to reinstall the game.
 
 ## USERMP Configuration
 
