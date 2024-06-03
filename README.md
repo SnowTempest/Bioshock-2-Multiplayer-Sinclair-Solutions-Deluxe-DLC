@@ -29,7 +29,7 @@ The Sinclair Solutions Deluxe DLC is an unofficial dlc created for BioShock 2 Mu
 
 ## DLC Installation
 0. **Download**
-   - Download the DLC from the release section of the Github. [Bioshock 2 Multiplayer Sinclair Solutions Deluxe DLC](https://github.com/SnowTempest/Bioshock-2-Multiplayer-Sinclair-Solutions-Deluxe-DLC/releases/tag/1.0.0)
+   - Download the DLC from the release section of the Github. [Releases](https://github.com/SnowTempest/Bioshock-2-Multiplayer-Sinclair-Solutions-Deluxe-DLC/releases/tag/1.0.0)
 1. **Read the DLC Known Issues** section below before starting.
 2. **Backup Files:**
    - Backup `ConfigureLoadout.swf`, `SharedLibrary.swf`, and `Loading.swf` from `SteamLibrary\steamapps\common\BioShock 2\MP\Content\FlashMovies` by copying them to a new folder.
@@ -78,7 +78,7 @@ The Sinclair Solutions Deluxe DLC is an unofficial dlc created for BioShock 2 Mu
      - This includes the `MouseAccelThreshold` and `MouseSmoothingMode` values.
 
 
-# DLC Known Issues
+## DLC Known Issues
 
 1. **Game Crash with Poison Quills:**
    - Highlighting over Poison Quills in the Loadout Configurator will crash your game unless you trigger the DLC at least once with '`' (tilde).
