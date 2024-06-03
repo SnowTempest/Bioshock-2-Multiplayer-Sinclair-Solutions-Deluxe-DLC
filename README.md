@@ -1,5 +1,7 @@
-# BioShock 2 Multiplayer Unofficial DLC
+# BioShock 2 Multiplayer Sinclair Solutions Deluxe DLC
 
+## Intro 
+The Sinclair Solutions Deluxe DLC is an unofficial dlc created for BioShock 2 Multiplayer. Its purpose is to make unused content, which was left in the game files, available for public use for the players and bring new content to the game after nearly 14 years.
 
 ## Features
 
@@ -27,7 +29,7 @@
 
 ## DLC Installation
 0. **Download**
-   - Download the DLC from the release section of the Github. [Bioshock 2 Multiplayer Unofficial DLC](https://github.com/SnowTempest/Bioshock-2-Multiplayer-Unofficial-DLC/releases/tag/1.0.0)
+   - Download the DLC from the release section of the Github. [Bioshock 2 Multiplayer Sinclair Solutions Deluxe DLC](https://github.com/SnowTempest/Bioshock-2-Multiplayer-Sinclair-Solutions-Deluxe-DLC/releases/tag/1.0.0)
 1. **Read the DLC Known Issues** section below before starting.
 2. **Backup Files:**
    - Backup `ConfigureLoadout.swf`, `SharedLibrary.swf`, and `Loading.swf` from `SteamLibrary\steamapps\common\BioShock 2\MP\Content\FlashMovies` by copying them to a new folder.
@@ -106,10 +108,10 @@
 ## Screenshots
 
 ### New DLC Items
-![New Items In Loadout](https://github.com/SnowTempest/Bioshock-2-Multiplayer-DLC/blob/main/Screenshots/NewDLCItems.jpg)
+![New Items In Loadout](https://github.com/SnowTempest/Bioshock-2-Multiplayer-Sinclair-Solutions-Deluxe-DLC/blob/main/Screenshots/NewDLCItems.jpg)
 
 ### New DLC Items In-Game
-![Poison Quills and the New Melee Weapon Primary](https://github.com/SnowTempest/Bioshock-2-Multiplayer-DLC/blob/main/Screenshots/PoisonQuills.jpg)
+![Poison Quills and the New Melee Weapon Primary](https://github.com/SnowTempest/Bioshock-2-Multiplayer-Sinclair-Solutions-Deluxe-DLC/blob/main/Screenshots/PoisonQuills.jpg)
 
 ### Mercury Suites Thumbnail
-![The Original Mercury Suites Thumbnail](https://github.com/SnowTempest/Bioshock-2-Multiplayer-DLC/blob/main/Screenshots/MercurySuitesThumbnail.jpg)
+![The Original Mercury Suites Thumbnail](https://github.com/SnowTempest/Bioshock-2-Multiplayer-Sinclair-Solutions-Deluxe-DLC/blob/main/Screenshots/MercurySuitesThumbnail.jpg)
