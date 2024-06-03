@@ -26,7 +26,8 @@
 
 
 ## DLC Installation
-
+0. **Download**
+   - Download the DLC from the release section of the Github. [Bioshock 2 Multiplayer Unofficial DLC](https://github.com/SnowTempest/Bioshock-2-Multiplayer-Unofficial-DLC/releases/tag/1.0.0)
 1. **Read the DLC Known Issues** section below before starting.
 2. **Backup Files:**
    - Backup `ConfigureLoadout.swf`, `SharedLibrary.swf`, and `Loading.swf` from `SteamLibrary\steamapps\common\BioShock 2\MP\Content\FlashMovies` by copying them to a new folder.
