@@ -85,24 +85,30 @@ The Sinclair Solutions Deluxe DLC is an unofficial dlc created for BioShock 2 Mu
      - The earliest point where you can trigger the bind is at the main menu with the BioShock 2 logo.
      - The promotional video does not trigger the binds.
 
-2. **Melee Weapon Loadout Issue:**
+2. **I Have Correctly Triggered Poison Quills Yet I Still Cannot Use It In-Game? Why?**
+   - Players receive replicated copies of the Plasmid Classes from the host.
+     - As a result, Poison Quills will only work as long as the host has it enabled.
+     - Everything else in the DLC works regardless of the player being the host.
+
+3. **Melee Weapon Loadout Issue:**
    - You are unable to run the Melee Weapon by itself without having another primary weapon within the loadout.
      - This will cause no issues as the game will indicate your loadout is invalid beforehand. Simply give yourself another primary weapon to fix this.
 
-3. **New Items Not Saving:**
+4. **New Items Not Saving:**
    - The new items will not save into the loadout and will only save for the current session.
      - This is due to the game not having valid IDs for the given items, so it can't save across game launches.
      - They will remain in the loadout until you close the game.
 
-4. **Elemental Melee Tonics Limitation:**
+5. **Elemental Melee Tonics Limitation:**
    - You cannot run multiple Elemental Melee Tonics (Cold Punch, Fire Punch, Zap Punch) simultaneously.
      - This is intended behavior as the game crashes if you try equipping more than one into your loadout.
      - The game will lock the other two tonics to prevent you from accidentally selecting more than one.
 
-5. **Compatibility with Other Languages:**
+6. **Compatibility with Other Languages:**
    - The configuration does not work properly with other languages.
      - The new DLC Flash Files may break the game as I do not have access to SWF files for other languages.
      - Currently, only English is supported. User discretion is advised when attempting to use the DLC with non-English languages.
+
 
 
 ## Screenshots
