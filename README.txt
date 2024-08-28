@@ -1,9 +1,15 @@
-# BioShock 2 Multiplayer Unofficial DLC
+# BioShock 2 Multiplayer Sinclair Solutions Deluxe DLC
+
+--------------------------
+## Intro 
+--------------------------
+
+The Sinclair Solutions Deluxe DLC is an unofficial dlc created for BioShock 2 Multiplayer. Its purpose is to make unused content, which was left in the game files, available for public use for the players and bring new content to the game after nearly 14 years.
 
 
------------------------
+--------------------------
 ## Features
------------------------
+--------------------------
 
 1. **New Weapon - Melee Weapon**
    - This weapon utilizes your character's unique melee attack as a primary weapon.
@@ -19,17 +25,17 @@
    - **Super Health**: Grants 10 additional bonus health, allowing you to survive most one-shot attacks.
 
 4. **New Loading Screen Thumbnail**
-  - Fixes a Day 1 Bug with Mercury Suites where the Loading thumbnail incorrectly showcases the Apartment Lobby's thumbnail.
-  - Now Showcases the proper thumbnail.
+   - Fixes a Day 1 Bug with Mercury Suites where the Loading thumbnail incorrectly showcases the Apartment Lobby's thumbnail.
+   - Now Showcases the proper thumbnail.
 
 5. **New FOV Fix**
-  - The included UserMP.ini now has a new FOV fix which will work 100% of the time and changes the FOV immediately once pressed.
-  - Note: The ForegroundFOV still requires correct timing. But there are now more opportunities to trigger the fix before spawning.
+   - The included UserMP.ini now has a new FOV fix which will work 100% of the time and changes the FOV immediately once pressed.
+   - Note: The ForegroundFOV still requires correct timing. But there are now more opportunities to trigger the fix before spawning.
 
 
------------------------
+--------------------------
 ## DLC Installation
------------------------
+--------------------------
 
 1. **Read the DLC Known Issues** section below before starting.
 2. **Backup Files:**
@@ -51,17 +57,17 @@
 10. **Need Help?**
     - If you have any questions or concerns, please join the Bioshock 2 Multiplayer Official Discord for help installing. [Bioshock 2 Multiplayer Discord Server](https://discord.gg/4ydTGHfFPQ)
 11. **Wanna Uninstall the DLC?**
-   - To uninstall the DLC and revert to the vanilla version, simply replace the downloaded files with your backups.
-   - If this doesn't work, you can verify the integrity of the game files within your Steam library.
-   - If verifying still does not work, you will need to reinstall the game.
+    - To uninstall the DLC and revert to the vanilla version, simply replace the downloaded files with your backups.
+    - If this doesn't work, you can verify the integrity of the game files within your Steam library.
+    - If verifying still does not work, you will need to reinstall the game.
 
 
------------------------
+--------------------------
 ## USERMP Configuration
------------------------
+--------------------------
 
 1. **Re-apply Your Binds In-Game:**
-   - After updating the UserMp.ini file, re-apply your binds within the game.
+   - After updating the UserMP.ini file, re-apply your binds within the game.
 
 2. **Modify Sensitivity Settings:**
    - A new sensitivity modifier has been added to the `UserMP.ini` file. Search for `XSens` and `YSens` under the Aliases section.
@@ -82,30 +88,39 @@
      - This includes the `MouseAccelThreshold` and `MouseSmoothingMode` values.
 
 
------------------------
-# DLC Known Issues
------------------------
+--------------------------
+## DLC Known Issues
+--------------------------
 
 1. **Game Crash with Poison Quills:**
    - Highlighting over Poison Quills in the Loadout Configurator will crash your game unless you trigger the DLC at least once with '`' (tilde).
      - The earliest point where you can trigger the bind is at the main menu with the BioShock 2 logo.
      - The promotional video does not trigger the binds.
 
-2. **Melee Weapon Loadout Issue:**
+2. **I Have Correctly Triggered Poison Quills Yet I Still Cannot Use It In-Game? Why?**
+   - Players receive replicated copies of the Plasmid Classes from the host.
+     - As a result, Poison Quills will only work as long as the host has it enabled.
+     - Everything else in the DLC works regardless of the player being the host.
+
+3. **Melee Weapon Loadout Issue:**
    - You are unable to run the Melee Weapon by itself without having another primary weapon within the loadout.
      - This will cause no issues as the game will indicate your loadout is invalid beforehand. Simply give yourself another primary weapon to fix this.
 
-3. **New Items Not Saving:**
+4. **New Items Not Saving:**
    - The new items will not save into the loadout and will only save for the current session.
      - This is due to the game not having valid IDs for the given items, so it can't save across game launches.
      - They will remain in the loadout until you close the game.
 
-4. **Elemental Melee Tonics Limitation:**
+5. **Elemental Melee Tonics Limitation:**
    - You cannot run multiple Elemental Melee Tonics (Cold Punch, Fire Punch, Zap Punch) simultaneously.
      - This is intended behavior as the game crashes if you try equipping more than one into your loadout.
      - The game will lock the other two tonics to prevent you from accidentally selecting more than one.
 
-5. **Compatibility with Other Languages:**
+6. **Compatibility with Other Languages:**
    - The configuration does not work properly with other languages.
      - The new DLC Flash Files may break the game as I do not have access to SWF files for other languages.
      - Currently, only English is supported. User discretion is advised when attempting to use the DLC with non-English languages.
+
+7. **Slugger Disabled When Equipping Zap Punch and Vise Versa**
+   - These two tonics cause a big bug when put together so they have been disabled / locked to prevent it.
+     - You may notice Slugger still being locked when moving to another loadout after equipping Zap Punch / Slugger. Scroll DOWN through the tonics list to fix.
