@@ -109,7 +109,9 @@ The Sinclair Solutions Deluxe DLC is an unofficial dlc created for BioShock 2 Mu
      - The new DLC Flash Files may break the game as I do not have access to SWF files for other languages.
      - Currently, only English is supported. User discretion is advised when attempting to use the DLC with non-English languages.
 
-
+7. **Slugger Disabled When Equipping Zap Punch and Vise Versa**
+   - These two tonics (Slugger and Zap Punch) are mutually exclusive due to a significant bug that occurs when they are equipped together. To prevent this issue, these tonics have been set to automatically disable each other when one is selected.
+     - You may notice that Slugger remains locked sometimes even after switching to another loadout if Zap Punch or Slugger was previously equipped. To resolve this, scroll **down** through the tonics list to unlock and refresh the tonic options.
 
 ## Screenshots
 
