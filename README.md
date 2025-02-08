@@ -1,125 +1,66 @@
+<img src="Images/Bioshock2Startup.png" alt="Bioshock 2 Multiplayer Logo" width="700"/>
+
+<br>
+
+
 # BioShock 2 Multiplayer Sinclair Solutions Deluxe DLC
 
-## Intro 
-The Sinclair Solutions Deluxe DLC is an unofficial dlc created for BioShock 2 Multiplayer. Its purpose is to make unused content, which was left in the game files, available for public use for the players and bring new content to the game after nearly 14 years.
+| Table of Context |
+|------------------------------|
+| 📜 [Intro](#intro)  
+| 🗃️ [DLC 1 - Cut Content](#dlc-1---cut-content)  
+| 📈 [DLC 2 - Rank Progression](#dlc-2---rank-progression)  
+| 🔗 [Downloadable Content Links](#downloadable-content-links) 
 
-## Features
+## Intro
 
-1. **New Weapon - Melee Weapon**
-   - This weapon utilizes your character's unique melee attack as a primary weapon.
+The Sinclair Solutions Deluxe DLC (SSD DLC) is a repository of unofficial DLC created for BioShock 2 Multiplayer to enhance gameplay with new content and experiences. The contents of this repository currently features restored cut content and additional ranks to unlock.
 
-2. **New Plasmid - Poison Quills**
-   - Grants the unused plasmid Poison Quills which disables other players' plasmids for 10 seconds.
+There are currently 2 DLCs available for Sinclair Solutions Deluxe.
 
-3. **New Tonics**
-   - **Cold Punch**: Adds a freezing effect to your melee swings, allowing you to freeze enemies and turrets / vending machines.
-   - **Fire Punch**: Adds a burning effect to your melee swings, setting enemies and objects on fire.
-   - **Zap Punch**: Adds a stunning effect to your melee swings, stunning enemies.
-   - **Adrenaline Eve**: Provides Eve in return for any damage taken in a 1-to-1 ratio.
-   - **Super Health**: Grants 10 additional bonus health, allowing you to survive most one-shot attacks.
+## DLC 1 - Cut Content
 
-4. **New Loading Screen Thumbnail**
-   - Fixes a Day 1 Bug with Mercury Suites where the Loading thumbnail incorrectly showcases the Apartment Lobby's thumbnail.
-   - Now Showcases the proper thumbnail.
+### Details
+<hr>
 
-5. **New FOV Fix**
-   - The included UserMP.ini now has a new FOV fix which will work 100% of the time and changes the FOV immediately once pressed.
-   - Note: The ForegroundFOV still requires correct timing. But there are now more opportunities to trigger the fix before spawning.
-
-
-## DLC Installation
-0. **Download**
-   - Download the DLC from the release section of the Github. [Releases](https://github.com/SnowTempest/Bioshock-2-Multiplayer-Sinclair-Solutions-Deluxe-DLC/releases/tag/1.0.0)
-1. **Read the DLC Known Issues** section below before starting.
-2. **Backup Files:**
-   - Backup `ConfigureLoadout.swf`, `SharedLibrary.swf`, and `Loading.swf` from `SteamLibrary\steamapps\common\BioShock 2\MP\Content\FlashMovies` by copying them to a new folder.
-3. **Replace Files:**
-   - Drag and drop the new `ConfigureLoadout.swf`, `SharedLibrary.swf`, and `Loading.swf` from the downloaded folder into the directory listed in step 1.
-   - Click "Replace" on any existing files popup.
-4. **Backup `UserMP.ini`:**
-   - Backup your `UserMP.ini` file from `\AppData\Roaming\Bioshock2Steam` by copying it into a new folder.
-5. **Replace `UserMP.ini`:**
-   - Drag and drop the new `UserMP.ini` file to replace the existing file.
-6. **Update `UserMP.ini`:**
-   - Read the `USERMP` section below and make any changes to your `UserMP.ini`.
-7. **Launch the Game.**
-8. **Activate the DLC:**
-   - Press '`' (tilde) at the main menu to activate the DLC (you will need to do this every time at launch).
-9. **Confirm New Items:**
-   - Check the Loadout menu to confirm the new items have been added.
-10. **Need Help?**
-    - If you have any questions or concerns, please join the Bioshock 2 Multiplayer Official Discord for help installing. [Bioshock 2 Multiplayer Discord Server](https://discord.gg/4ydTGHfFPQ)
-11. **Wanna Uninstall the DLC?**
-    - To uninstall the DLC and revert to the vanilla version, simply replace the downloaded files with your backups.
-    - If this doesn't work, you can verify the integrity of the game files within your Steam library.
-    - If verifying still does not work, you will need to reinstall the game.
-
-## USERMP Configuration
-
-1. **Re-apply Your Binds In-Game:**
-   - After updating the UserMP.ini file, re-apply your binds within the game.
-
-2. **Modify Sensitivity Settings:**
-   - A new sensitivity modifier has been added to the `UserMP.ini` file. Search for `XSens` and `YSens` under the Aliases section.
-     - Modifying these values will change your sensitivity globally.
-     - The new default sensitivity has been changed from 2000.0 to 200.0. Modify both to your preference.
-
-3. **Adjust Field of View (FOV) Settings:**
-   - A new FOV modifier has been added and is bound to the `-` (minus) key and D-PAD Up on Controller, using console FOV values.
-     - This includes an improved FOV fix, ensuring the FOV bind works correctly.
-     - You can modify the FOV values by searching for `FOV` under the Aliases section.
-     - `DesiredFOV` and `DefaultFOV` adjust the background (Map/World) FOV.
-     - `ForegroundFOVAngle` and `DefaultForegroundFOV` adjust the foreground (Gun/Arms) FOV.
-     - The background FOV modification is guaranteed to work, while the foreground FOV might still fail if not timed correctly.
-     - The FOV values have been changed from 75/60 (PC FOV) to 75/70 (XBOX/PS3 FOV).
-
-4. **Mouse Acceleration Fix:**
-   - The mouse acceleration fix has been automatically applied to your `UserMP.ini` under the `MoveForward` alias.
-     - This includes the `MouseAccelThreshold` and `MouseSmoothingMode` values.
+1. **Features**
+    - This DLC introduces 1 new Plasmid, 1 new Weapon, and 5 new Tonics! In addition to restoring cut content, DLC 1 also includes multiple fixes for Field-of-View, sensitivity adjustments, and a cosmetic issue affecting one of the loading screens. 
+2. **Link** 
+    - For more information about this DLC. Please click on the link below.
+    - | [ 🔗 SSD DLC1 - Cut Content](SSDCutContentDLC.md)|
+        |-|
 
 
-## DLC Known Issues
+### Preview
+<hr>
 
-1. **Game Crash with Poison Quills:**
-   - Highlighting over Poison Quills in the Loadout Configurator will crash your game unless you trigger the DLC at least once with '`' (tilde).
-     - The earliest point where you can trigger the bind is at the main menu with the BioShock 2 logo.
-     - The promotional video does not trigger the binds.
+| Plasmid - Poison Quills | Weapon - Melee Weapon | Tonic - Adrenaline Eve | Tonic - Super Health | Tonic - Cold Punch | Tonic - Fire Punch | Tonic - Zap Punch |
+|:-----------------------:|:---------------------:|:----------------------:|:--------------------:|:------------------:|:------------------:|:----------------:|
+| <img src="Images/DLC 1/Poison Quills.png" alt="Poison Quills"/> | <img src="Images/DLC 1/Melee Weapon.png" alt="Melee Weapon"/> |<img src="Images/DLC 1/Adrenaline Eve.png" alt="Adrenaline Eve"/> |<img src="Images/DLC 1/Super Health.png" alt="Super Health"/> |<img src="Images/DLC 1/Cold Punch.png" alt="Cold Punch"/> |<img src="Images/DLC 1/Fire Punch.png" alt="Fire Punch"/> |<img src="Images/DLC 1/Zap Punch.png" alt="Zap Punch"/> |
 
-2. **I Have Correctly Triggered Poison Quills Yet I Still Cannot Use It In-Game? Why?**
-   - Players receive replicated copies of the Plasmid Classes from the host.
-     - As a result, Poison Quills will only work as long as the host has it enabled.
-     - Everything else in the DLC works regardless of the player being the host.
+## DLC 2 - Rank Progression
 
-3. **Melee Weapon Loadout Issue:**
-   - You are unable to run the Melee Weapon by itself without having another primary weapon within the loadout.
-     - This will cause no issues as the game will indicate your loadout is invalid beforehand. Simply give yourself another primary weapon to fix this.
+### Details
+<hr>
 
-4. **New Items Not Saving:**
-   - The new items will not save into the loadout and will only save for the current session.
-     - This is due to the game not having valid IDs for the given items, so it can't save across game launches.
-     - They will remain in the loadout until you close the game.
+1. **Features**
+    - This DLC introduces new ranks to Bioshock 2 Multiplayer. An additional 50 ranks have been added to the game increasing the rank cap from 50 to 100. This comes with 6 **BRAND** new icons, with rank 100 introducing the very first animated rank icon.
+2. **Link**
+    - For more information about this DLC. Please click on the link below.
+    - |[ 🔗 SSD DLC2 - Rank Progression](SSDRankProgressionDLC.md)|
+        |-|
 
-5. **Elemental Melee Tonics Limitation:**
-   - You cannot run multiple Elemental Melee Tonics (Cold Punch, Fire Punch, Zap Punch) simultaneously.
-     - This is intended behavior as the game crashes if you try equipping more than one into your loadout.
-     - The game will lock the other two tonics to prevent you from accidentally selecting more than one.
+### Preview
+<hr>
 
-6. **Compatibility with Other Languages:**
-   - The configuration does not work properly with other languages.
-     - The new DLC Flash Files may break the game as I do not have access to SWF files for other languages.
-     - Currently, only English is supported. User discretion is advised when attempting to use the DLC with non-English languages.
+| Rank - Sapphire | Rank - Emerald | Rank - Amethyst | Rank - Dark Matter | Rank - ???? | Rank - ????|
+|:---------------:|:--------------:|:---------------:|:------------------:|:-----------:|:----------:|
+| <img src="Images/DLC 2/Sapphire.png" alt="Sapphire" width="64"/> | <img src="Images/DLC 2/Emerald.png" alt="Emerald" width="64"/> | <img src="Images/DLC 2/Amethyst.png" alt="Amethyst" width="64"/> | <img src="Images/DLC 2/DarkMatter.png" alt="Dark Matter" width="64"/> | <img src="Images/DLC 2/QuestionMark.png" alt="Question Mark"  width="64"/> | <img src="Images/DLC 2/QuestionMark.png" alt="Question Mark" width="64"/> |
 
-7. **Slugger Disabled When Equipping Zap Punch and Vise Versa**
-   - These two tonics (Slugger and Zap Punch) are mutually exclusive due to a significant bug that occurs when they are equipped together. To prevent this issue, these tonics have been set to automatically disable each other when one is selected.
-     - You may notice that Slugger remains locked sometimes even after switching to another loadout if Zap Punch or Slugger was previously equipped. To resolve this, scroll **down** through the tonics list to unlock and refresh the tonic options.
 
-## Screenshots
 
-### New DLC Items
-![New Items In Loadout](https://github.com/SnowTempest/Bioshock-2-Multiplayer-Sinclair-Solutions-Deluxe-DLC/blob/main/Screenshots/NewDLCItems.jpg)
 
-### New DLC Items In-Game
-![Poison Quills and the New Melee Weapon Primary](https://github.com/SnowTempest/Bioshock-2-Multiplayer-Sinclair-Solutions-Deluxe-DLC/blob/main/Screenshots/PoisonQuills.jpg)
+## Downloadable Content Links
 
-### Mercury Suites Thumbnail
-![The Original Mercury Suites Thumbnail](https://github.com/SnowTempest/Bioshock-2-Multiplayer-Sinclair-Solutions-Deluxe-DLC/blob/main/Screenshots/MercurySuitesThumbnail.jpg)
+|[SSD DLC1 - Cut Content](SSDCutContentDLC.md)|[SSD DLC2 - Rank Progression](SSDRankProgressionDLC.md)|
+|--|--|
