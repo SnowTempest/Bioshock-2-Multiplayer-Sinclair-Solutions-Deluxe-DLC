@@ -14,7 +14,7 @@ This Sinclair Solutions Deluxe DLC is an unofficial DLC created for Bioshock 2 M
     - This means the total amount of Adam required to reach max rank has been adjusted based on a specific algorithm.
         - **Old**: 163,000
         - **New**: 1,015,500
-    - The details of this algorithm will be explained below in [Behind The Scenes](#behind-the-scenes).
+    - The details of this algorithm will be explained below in Behind The Scenes.
 2. **6 New Rank Icons**
     - 6 brand new rank icons have been added, expanding the existing set of Bronze, Silver, Gold, Platinum and Diamond.
 
@@ -38,7 +38,7 @@ This Sinclair Solutions Deluxe DLC is an unofficial DLC created for Bioshock 2 M
 ## DLC Installation
 --------------------------
 0. **Download**
-    - Download the DLC from the release section of the Github. [Releases](TBA)
+    - Download the DLC from the release section of the Github.
 1. **Read the DLC Known Issues** section below before starting.
 2. **Backup Files**
     - Backup `dlc2unlocks.ini` from `SteamLibrary\steamapps\common\BioShock 2\MP\Builds\Binaries` and  `SharedLibrary.swf` from `SteamLibrary\steamapps\common\BioShock 2\MP\Content\FlashMovies` by copying them to a new folder.
@@ -54,7 +54,7 @@ This Sinclair Solutions Deluxe DLC is an unofficial DLC created for Bioshock 2 M
     - Go to loadouts and confirm if the **Super Health** tonic icon was correctly modified.
 7. **Need Help?**
     - If you have any questions or concerns, please join the Bioshock 2 Multiplayer Official Discord for help installing.  
-    - **[Bioshock 2 Multiplayer Discord Server](https://discord.gg/4ydTGHfFPQ)**
+    - **Bioshock 2 Multiplayer Discord Server: https://discord.gg/4ydTGHfFPQ**
 8. **Wanna Uninstall the DLC?**
     - To uninstall the DLC and revert to the vanilla version, simply replace the downloaded files with your backups.
     - If this doesn't work, you can verify the integrity of the game files within your Steam library.
