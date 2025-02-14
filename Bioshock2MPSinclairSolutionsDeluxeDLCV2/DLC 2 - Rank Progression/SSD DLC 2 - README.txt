@@ -64,10 +64,10 @@ This Sinclair Solutions Deluxe DLC is an unofficial DLC created for Bioshock 2 M
 ## DLC Known Issues
 --------------------------
 1. **Rank 51 Adam Requirements**
-    - Some players may notice an extremely high Adam requirement for Rank 51. This occurs due to how the game stores the Adam count into 2 seperate counters.
-        - Banked Adam - The player's total accumalated Adam.
-        - Ranked Adam - The player's accumalated Adam for ranking up.
-    - Ranked Adam only accumalates Adam while the player is actively ranking up. If the Rank Fix is applied, the player's Ranked Adam will only reflect the amount gathered up to the point when the fix was applied.
+    - Some players may notice an extremely high Adam requirement for Rank 51. This occurs due to how the game stores the Adam count into 2 separate counters.
+        - Banked Adam - The player's total accumulated Adam.
+        - Ranked Adam - The player's accumulated Adam for ranking up.
+    - Ranked Adam only accumulates Adam while the player is actively ranking up. If the Rank Fix is applied, the player's Ranked Adam will only reflect the amount gathered up to the point when the fix was applied.
     - In the Rank Fix guide, in this case, the player only gathers 49 Rank Adam which is enough to reach Rank 50 immediately.
     - As a result, players who used the Rank Fix will unfortunately need 171,451 Adam to reach Rank 51 depending on when they applied the Rank Fix.
     - A fix for this is considered for a future update.
